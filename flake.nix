@@ -91,7 +91,7 @@
 
           jdk = if yearVersionInt > 2020 then (pkgs.jdk.override { enableJavaFX = true; }) else pkgs.jdk17;
 
-          src = fetchTarball "https://github.com/MCreator/MCreator/releases/download/${fullVersion}/MCreator.EAP.${version}.Linux.64bit.tar.gz";
+          src = fetchTarball "https://github.com/MCreator/MCreator/releases/download/${fullVersion}/MCreator.EAP.${version}.33716.Linux.64bit.tar.gz";
 
           installPhase = ''
             mkdir -p "$out/share/applications"
