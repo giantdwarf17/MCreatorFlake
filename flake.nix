@@ -23,7 +23,7 @@
     with builtins;
     with pkgs.lib;
     let
-      includePrereleases = false;
+      includePrereleases = true;
 
       asJsonWithPrereleases = fromJSON (readFile mcreator-releases);
       asJson =
