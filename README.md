@@ -4,19 +4,19 @@ An **Impure** and **Non-Hermetic** Flake for easily installing/running MCreator 
 
 Installing it for Forge 1.16.5:
 
-`nix profile install github:MathiasSven/MCreatorFlake#forge1_16_5 --no-write-lock-file --impure`
+`nix profile install github:giantdwarf17/MCreatorFlake#forge1_16_5 --no-write-lock-file --impure`
 
 Installing for the most recent version of MCreator:
 
-`nix profile install github:MathiasSven/MCreatorFlake --no-write-lock-file --impure`
+`nix profile install github:giantdwarf17/MCreatorFlake --no-write-lock-file --impure`
 
 Running without installing a version meant for datapacks on 1.18.x:
 
-`nix run github:MathiasSven/MCreatorFlake#datapack1_18_x --no-write-lock-file --impure`
+`nix run github:giantdwarf17/MCreatorFlake#datapack1_18_x --no-write-lock-file --impure`
 
 ### All versions as of writing:
 
-`nix flake show github:MathiasSven/MCreatorFlake --no-write-lock-file`
+`nix flake show github:giantdwarf17/MCreatorFlake --no-write-lock-file`
 ```bash
 ├───apps
 │   └───x86_64-linux
